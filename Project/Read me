@@ -1,1 +1,69 @@
-Naan Mudhalvan
+Institution:
+
+Anjalai Ammal Mahalingam Engineering College
+Department: Information Technology
+Project Title: Automation of Laptop Request Process through ServiceNow
+Course: NM – ServiceNow Administrator
+
+Team Members:
+
+Varshini A (820422205089)
+Pradheeba G (820422205052)
+Suba Aishwarya R (820422205080)
+Suweatha E (802422205084)
+
+Project Overview
+
+This project, Laptop Request Catalog Items, focuses on developing an automated system using ServiceNow to replace the traditional manual laptop request process in organizations.
+The existing system relied on emails or verbal communication, causing delays, miscommunication, and tracking difficulties.
+
+By designing a Service Catalog Item within ServiceNow, the team created a dynamic, interactive form that allows employees to submit laptop requests efficiently.
+The solution incorporates UI Policies, Client Scripts, Flow Designer, and Notifications to ensure automation, transparency, and data accuracy throughout the request lifecycle.
+
+Objectives
+To automate the laptop request process using ServiceNow ITSM.
+To create a dynamic and user-friendly Service Catalog item.
+To ensure workflow-based approvals and fulfillment tracking.
+To enable notifications and audit trails for governance.
+To enhance user experience with form reset and conditional field visibility.
+
+System Implementation Summary
+
+Catalog Item: “Laptop Request” created under IT Services.
+Variables: Employee Name, Department, Laptop Type, Delivery Date, etc.
+UI Policies: Implemented for dynamic field visibility based on user selections.
+Client Script: Added reset form functionality.
+Workflow (Flow Designer): Automated approval, fulfillment, and notifications.
+Update Sets: Used for safe migration between instances.
+Testing: Conducted functional, workflow, and user acceptance testing.
+
+Architecture Overview
+
+Layer	Focus Area	Key Tools/Components	Outcome
+Presentation Layer	UI & Data Input	Service Catalog Form, UI Policies, Client Scripts	Dynamic, guided user input
+Application Logic Layer	Automation	Flow Designer, Business Rules, Notifications	End-to-end process automation
+Data Layer	Storage & Reporting	sc_request, sc_req_item, task tables	Reliable data and tracking
+Integration Layer	External Systems	Asset Mgmt, Procurement Integration	Future-ready extensibility
+
+Key Results
+
+Processing time reduced significantly compared to manual methods.
+Data accuracy improved through UI validations and guided inputs.
+Full transparency in request tracking and audit history.
+Governance ensured via documented workflows and notifications.
+User satisfaction enhanced through a simplified digital experience.
+
+Testing Summary
+
+Extensive testing was performed to validate:
+Dynamic form behavior using UI Policies.
+Workflow execution across roles (Employee → Manager → IT Team).
+Notification accuracy for approvals, fulfillment, and closure.
+Reset functionality and field validations.
+Successful migration using Update Sets.
+
+Conclusion
+
+The Laptop Request Catalog in ServiceNow successfully transformed the manual laptop request process into a digital, automated, and transparent workflow.
+It not only reduces operational burden but also ensures accuracy, speed, and user convenience.
+This project demonstrates strong understanding of ServiceNow configuration, workflow automation, and ITSM best practices, setting a foundation for future asset management automation.
